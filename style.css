@@ -285,6 +285,11 @@ ul.solution {
     border: 1px solid #3f3f3f;
 }
 
+.form-div button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .submit{
     border: none;
     background-color: #006CB5;
