@@ -403,6 +403,44 @@ footer h3{
     color: #3f3f3f;
 }
 
+.success-box{
+    margin-top: 100px;
+}
+
+.success-box img{
+    width: 200px;
+}
+
+.success-box h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: #3f3f3f;
+    margin-top: 40px;
+}
+
+.success-box p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #606060;
+    margin-top: 30px;
+    margin: 30px 350px 50px 350px;
+}
+
+.success-box button{
+    outline: none;
+    border: none;
+    background-color: #006CB5;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.success-box button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 /* RESPONSIVENESS */
 
 @media (max-width: 1399px) and (min-width: 1199px) {
