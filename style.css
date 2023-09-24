@@ -408,22 +408,22 @@ footer h3{
     color: #3f3f3f;
 }
 
-.success-box{
+.success-box, .failed-box{
     margin-top: 100px;
 }
 
-.success-box img{
+.success-box img, .failed-box img{
     width: 200px;
 }
 
-.success-box h4{
+.success-box h4, .failed-box h4{
     font-size: 40px;
     font-weight: 600;
     color: #3f3f3f;
     margin-top: 40px;
 }
 
-.success-box p{
+.success-box p, .failed-box p{
     font-size: 18px;
     font-weight: 300;
     color: #606060;
@@ -431,18 +431,18 @@ footer h3{
     margin: 30px 350px 50px 350px;
 }
 
-.success-box button{
+.success-box button, .failed-box button{
     outline: none;
-    border: none;
-    background-color: #006CB5;
-    padding: 10px 30px;
+    border: 1px solid #006CB5;
+    background-color: #ffffff;
+    padding: 15px 30px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.success-box button a{
+.success-box button a, .failed-box button a{
     text-decoration: none;
-    color: #ffffff;
+    color: #006CB5;
 }
 
 
@@ -529,6 +529,10 @@ footer h3{
 
     .form-div {
         padding: 40px;
+    }
+
+    .success-box p, .failed-box p{
+        margin: 30px 200px 50px 200px;
     }
     
 }
@@ -629,6 +633,10 @@ footer h3{
         width: 80px;
     }
 
+    .success-box p, .failed-box p{
+        margin: 30px 100px 50px 100px;
+    }
+
 }
 
 @media (max-width: 800px) and (min-width: 767px) {
@@ -727,6 +735,10 @@ footer h3{
 
     .address-div img {
         width: 80px;
+    }
+
+    .success-box p, .failed-box p{
+        margin: 30px 100px 50px 100px;
     }
 
 }
@@ -850,6 +862,15 @@ footer h3{
     .social-div, .links-div{
         margin-top: 40px;
     }
+
+    .success-box img, .failed-box img {
+        width: 150px;
+    }
+
+    .success-box p, .failed-box p{
+        margin: 30px auto 50px auto;
+    }
+
 }
 
 
